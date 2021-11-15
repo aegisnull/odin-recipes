@@ -1,1 +1,2 @@
 # odin-recipes
+Small project to practice basic HTML skills, the idea is to reinforce in muscle memory the basic HTML boilerplate and with time be polishing up the website without the help of any web framework, just pure handtyped HTML code.
