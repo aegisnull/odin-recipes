@@ -4,13 +4,14 @@
     rgba(163, 175, 243, 1) 0%,
     rgba(220, 182, 232, 1) 100.2%
   );
-  overflow: hidden;
 }
 
 .page__title {
   font-size: 44px;
   font-weight: bold;
   text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
 }
 
 .page__image {
@@ -25,100 +26,102 @@
   font-size: 24px;
   font-weight: bold;
   text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
 }
 
 .card__container {
+}
+
+.card__inner-container {
   display: flex;
   flex-wrap: wrap;
+}
+
+.card__left-side {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin-top: 20px;
-  list-style-type: none;
-  overflow: hidden;
+  align-items: center;
+  flex: 1;
+}
+
+.card__right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
 }
 
 .card__item {
-  width: 100%;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  overflow: hidden;
 }
 
 .card__button {
-  padding: 0.3em 1.2em;
-  margin: 0 0.1em 0.1em 0;
   border: 0.16em solid rgba(255, 255, 255, 0);
   border-radius: 2em;
-  box-sizing: border-box;
-  text-decoration: none;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  color: #ffffff;
-  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
-  transition: all 0.2s;
-  font-size: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  width: 30vw;
+  text-align: center;
 }
 
 .card__button_link {
   color: white;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 .card__button_itzy {
   background-color: #f14ebd;
-  position: absolute;
-  left: 15%;
-  margin-top: 170px;
 }
 
 .card__button_exo {
   background-color: #9a4ef1;
-  position: absolute;
-  left: 15%;
-  margin-top: 170px;
 }
 
 .card__button_skz {
   background-color: #f14e4e;
-  position: absolute;
-  left: 15%;
-  margin-top: 170px;
 }
 
 .card__button:hover {
   border-color: rgba(255, 255, 255, 1);
 }
 
-.card__logo {
-  position: absolute;
-  right: 40px;
-  padding-top: 25px;
+.card__logo_itzy {
+  width: 40%;
+  height: auto;
 }
 
-.card__image_itzy {
-  position: absolute;
-  right: 40px;
-  padding-top: 200px;
+.card__logo_exo {
+  width: auto;
+  height: 20%;
 }
 
-.card__food {
-  position: absolute;
+.card__logo_skz {
+  width: 40%;
+  height: auto;
+}
+
+.card__image {
+  width: 70%;
+  height: auto;
 }
 
 .card__food_itzy {
-  left: 0px;
-  padding-top: 300px;
+  width: 70%;
+  height: auto;
 }
 
 .card__food_exo {
-  left: 180px;
-  padding-top: 250px;
+  width: auto;
+  height: 40%;
 }
 
 .card__food_skz {
-  left: 0px;
-  padding-top: 200px;
-  overflow: hidden;
+  width: auto;
+  height: 25%;
 }
 
 .bg__itzy {
@@ -145,4 +148,10 @@
     rgba(14, 11, 56, 1) 11.2%,
     rgba(239, 37, 37, 1) 91.1%
   );
+}
+
+.recipe__title {
+  font-size: 30px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
