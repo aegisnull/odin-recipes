@@ -1,0 +1,9 @@
+* {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.recipe__image {
+  width: 400px;
+  height: auto;
+}
